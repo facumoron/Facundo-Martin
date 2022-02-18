@@ -39,7 +39,7 @@ body {
 .jumbotron {
     background-image: url(../multimedia/images/fondo.jpg);
     background-size: cover;
-    height: 300px;
+    min-height: 500px;
     color: #fff;
     text-shadow: 0 0 10px #333;
     border-radius: 0;
@@ -55,6 +55,8 @@ body {
     padding-bottom: 10px;
     margin: 1px;
 }
+
+
 h2 {
     text-align: center;
 }
@@ -125,7 +127,7 @@ h2 {
 
 
 
-/* ----------------------main---------------------------- */
+/* ------------------main productos---------------------- */
 
 
 
@@ -183,9 +185,27 @@ h2 {
 
 
 
-/*------------------------- main productos -------------------------*/
+/*--------------------- main productos --------------------*/
 
+/*------------------- main sobre nosotros -----------------*/
 
+.quienesSomos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.ubi {
+    min-height: 400px;
+
+}
+iframe {
+    min-height: 400px;
+}
+
+/*------------------- main sobre nosotros -----------------*/
 
 
 /*---------------------- footer ---------------------------*/
