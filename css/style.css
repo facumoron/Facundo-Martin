@@ -37,7 +37,7 @@ body {
 /* -------------------jumbotron-------------------------- */
 
 .jumbotron {
-    background-image: url(/multimedia/images/fondo.jpg);
+    background-image: url(../multimedia/images/fondo.jpg);
     background-size: cover;
     height: 300px;
     color: #fff;
@@ -63,7 +63,7 @@ h2 {
     min-height: 300px;
     width: 100%;
     background-color: var(--color4);
-    background-image: url(/multimedia/images/wave-haikei.svg), url(/multimedia/images/fondo.jpg);
+    background-image: url(../multimedia/images/wave-haikei.svg), url(../multimedia/images/fondo.jpg);
     background-size: cover;
     display: flex;
     justify-content: flex-end;
