@@ -107,10 +107,18 @@ h2 {
 
 /* ------------------main contacto -----------------------*/
 
-
-.bigicon {
+.form-group {
+    display: flex;
+    justify-content: center;
+}
+.fa {
     font-size: 35px;
-    color: #36A0FF;
+    color: black;
+}
+.fa-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
 /* ------------------main contacto -----------------------*/
