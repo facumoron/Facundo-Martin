@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* -------------------- bootstrap ----------------------- */
+
+
+:root {
+    --color0: #83c0ce;
+    --color1: #5595a5;
+    --color2: #215964;
+    --color3: #a49092;
+    --color4: #be814c;
+    --color5: #be814c;
+}
+
+/* --------------------- nav ---------------------------- */
+
+.navbar {
+   background-color: var(--color2); 
+}
+
+/* --------------------- nav ---------------------------- */
+
+
+/* -------------------jumbotron-------------------------- */
+
+.jumbotron {
+    background-image: url(/multimedia/images/fondo.jpg);
+    background-size: cover;
+    height: 300px;
+    color: #fff;
+    text-shadow: 0 0 10px #333;
+    border-radius: 0;
+    margin: 0;
+}
+
+/* -------------------jumbotron-------------------------- */
+
+
+/* ----------------------main---------------------------- */
+
+h2 {
+    text-align: center;
+}
+
+.nosotros {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--color4);
+    background-image: url(/multimedia/images/wave-haikei.svg), url(/multimedia/images/fondo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.m-nosotros {
+    width: 40%;
+    height: 100%;
+    padding: 1px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.m-nosotros h3 {
+    color: var(--color4);
+    text-transform: uppercase;
+}
+
+.m-nosotros p {
+    color: white;
+    text-shadow: 0 0 10px #333;
+}
+
+/* ----------------------main---------------------------- */
+
+/* -------------------- bootstrap ----------------------- */

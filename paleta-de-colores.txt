@@ -1,0 +1,7 @@
+#a5d9e5   (celeste claro)
+#75b0be   (celeste intermedio)
+#5ca5b3   (celeste oscuro)
+#a49092   (marron claro apagado)
+#be814c   (marron claro)
+#be814c   (beigue)
+
