@@ -37,8 +37,12 @@ body {
 /* -------------------jumbotron-------------------------- */
 
 .jumbotron {
-    background-image: url(../multimedia/images/fondo.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5) );
+    background-image: url(https://images.pexels.com/photos/422220/pexels-photo-422220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     min-height: 500px;
     color: #fff;
     text-shadow: 0 0 10px #333;
@@ -62,18 +66,19 @@ h2 {
 }
 
 .nosotros {
-    min-height: 300px;
+    min-height: 550px;
     width: 100%;
-    background-color: var(--color4);
-    background-image: url(../multimedia/images/wave-haikei.svg), url(../multimedia/images/fondo.jpg);
+    background-image: url(../multimedia/images/wave-haikei.svg), url(https://images.pexels.com/photos/4588013/pexels-photo-4588013.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 .m-nosotros {
-    width: 40%;
+    width: 60%;
     height: 100%;
     padding: 1px;
     border-radius: 20px;
@@ -90,6 +95,9 @@ h2 {
     color: white;
     text-shadow: 0 0 10px #333;
 }
+
+/* -----------------------main--------------------------- */
+
 
 /* -------------------main galeria----------------------- */
 
@@ -195,6 +203,8 @@ h2 {
     justify-content: center;
     text-align: center;
     justify-items: center;
+    padding-left: 600px;
+    padding-right: 600px;
 }
 
 .ubi {
