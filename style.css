@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color0);
+}
+
+/* -------------------- bootstrap ----------------------- */
+:root {
+  --color0: #83c0ce;
+  --color1: #5595a5;
+  --color2: #215964;
+  --color3: #a49092;
+  --color4: #be814c;
+  --color5: #be814c;
+}
+
+/* --------------------- nav ---------------------------- */
+.navbar {
+  background-color: var(--color2);
+}
+
+/* --------------------- nav ---------------------------- */
+/* -------------------jumbotron-------------------------- */
+.jumbotron {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+  background-image: url(https://images.pexels.com/photos/422220/pexels-photo-422220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  min-height: 500px;
+  color: #fff;
+  text-shadow: 0 0 10px #333;
+  border-radius: 0;
+  margin: 0;
+}
+
+/* -------------------jumbotron-------------------------- */
+/* ----------------------main---------------------------- */
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 1px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.nosotros {
+  min-height: 550px;
+  width: 100%;
+  background-image: url(../multimedia/images/wave-haikei.svg), url(https://images.pexels.com/photos/4588013/pexels-photo-4588013.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.m-nosotros {
+  width: 60%;
+  height: 100%;
+  padding: 1px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.m-nosotros h3 {
+  color: var(--color4);
+  text-transform: uppercase;
+}
+
+.m-nosotros p {
+  color: white;
+  text-shadow: 0 0 10px #333;
+}
+
+/* -----------------------main--------------------------- */
+/* -------------------main galeria----------------------- */
+.galeria {
+  padding: 15px;
+  background-color: var(--color0);
+}
+
+.imagen:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+/* -------------------main galeria----------------------- */
+/* ------------------main contacto -----------------------*/
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fa {
+  font-size: 35px;
+  color: black;
+}
+
+.fa-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+/* ------------------main contacto -----------------------*/
+/* ------------------main productos---------------------- */
+.productos {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.caja {
+  border: 1px solid #3d3d3d;
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+  margin: 5px;
+}
+
+.c1 {
+  background-color: coral;
+}
+
+.c2 {
+  background-color: blueviolet;
+}
+
+.c3 {
+  background-color: crimson;
+}
+
+.c4 {
+  background-color: cornflowerblue;
+}
+
+.c5 {
+  background-color: cornsilk;
+}
+
+.c6 {
+  background-color: chocolate;
+}
+
+.c7 {
+  background-color: cadetblue;
+}
+
+.c8 {
+  background-color: chartreuse;
+}
+
+/*--------------------- main productos --------------------*/
+/*------------------- main sobre nosotros -----------------*/
+.quienesSomos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  justify-items: center;
+  padding-left: 600px;
+  padding-right: 600px;
+}
+
+.ubi {
+  min-height: 400px;
+}
+
+iframe {
+  min-height: 400px;
+}
+
+/*------------------- main sobre nosotros -----------------*/
+/*---------------------- footer ---------------------------*/
+footer {
+  background-color: var(--color2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+footer ul li a {
+  text-decoration: none !important;
+  color: var(--color5);
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+/*---------------------- footer ---------------------------*/
+/* -------------------- bootstrap ----------------------- */
+/*# sourceMappingURL=style.css.map */
