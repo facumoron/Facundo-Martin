@@ -34,9 +34,9 @@ switch (menu) {
 
 }
 
-/* let caja = document.getElementsByClassName("productos") */
 let c1 = document.getElementById("c1")
-/* let c2 = document.getElementsByClassName("c2")
+/* let caja = document.getElementsByClassName("productos")
+let c2 = document.getElementsByClassName("c2")
 let c3 = document.getElementsByClassName("c3")
 let c4 = document.getElementsByClassName("c4")
 let c5 = document.getElementsByClassName("c5")
