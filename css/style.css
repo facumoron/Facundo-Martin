@@ -28,7 +28,7 @@ body {
 /* --------------------- nav ---------------------------- */
 
 .navbar {
-    background-color: var(--color2); 
+    background-color: var(--color2);
 }
 
 /* --------------------- nav ---------------------------- */
@@ -37,7 +37,7 @@ body {
 /* -------------------jumbotron-------------------------- */
 
 .jumbotron {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5) );
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
     background-image: url(https://images.pexels.com/photos/422220/pexels-photo-422220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-position: center;
@@ -106,6 +106,7 @@ h2 {
     padding: 15px;
     background-color: var(--color0);
 }
+
 .imagen:hover {
     transform: scale(1.05);
     transition-duration: 0.3s;
@@ -121,10 +122,12 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
 .fa {
     font-size: 35px;
     color: black;
 }
+
 .fa-user {
     display: flex;
     flex-direction: row;
@@ -139,7 +142,7 @@ h2 {
 
 
 
-.productos {
+/* .productos {
     padding: 20px;
     display: flex;
     flex-flow: row wrap;
@@ -149,13 +152,12 @@ h2 {
 .caja {
     border: 1px solid rgb(61, 61, 61);
     background-color: white;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     width: 180px;
     height: 180px;
     line-height: 180px;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
 
 }
 
@@ -191,6 +193,14 @@ h2 {
     background-color: chartreuse;
 }
 
+.c9 {
+    background-color: fuchsia;
+}
+
+.c10 {
+    background-color: salmon;
+} */
+
 
 
 /*--------------------- main productos --------------------*/
@@ -203,14 +213,15 @@ h2 {
     justify-content: center;
     text-align: center;
     justify-items: center;
-    padding-left: 600px;
-    padding-right: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .ubi {
     min-height: 400px;
 
 }
+
 iframe {
     min-height: 400px;
 }
@@ -235,6 +246,7 @@ footer ul li a {
 footer ul li a:hover {
     color: white;
 }
+
 /*---------------------- footer ---------------------------*/
 
 
